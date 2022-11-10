@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Inter&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <title>Aim Training</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Aim Training</h1>
+      <a href="#" class="start" id="start">Start</a>
+    </div>
+
+    <div class="screen">
+      <h1>Choose time range</h1>
+      <ul class="time-list" id="time-list">
+        <li>
+          <button class="time-btn" data-time="10">
+            10sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="20">
+            20sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="30">
+            30sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="60">
+            1min
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <h3><span id="time">00:00</span> left</h3>
+      <div class="board" id="board"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
